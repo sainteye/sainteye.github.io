@@ -1,1 +1,1 @@
-jQuery('#pixad1101d').css('overflow', 'hidden');jQuery('.sticky-box').remove();jQuery('.article-body iframe').remove();jQuery('.article-footer').css('overflow', 'hidden');
+jQuery('#pixad1101d').css('overflow', 'hidden');jQuery('.sticky-box').remove();jQuery('.article-body iframe').remove();jQuery('#main').css('overflow', 'hidden');
