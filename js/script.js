@@ -1,7 +1,8 @@
 jQuery('#pixad1101d').css('overflow', 'hidden');jQuery('.sticky-box').remove();
 jQuery('#main').css('overflow', 'hidden');jQuery('.article-body iframe').remove();
 jQuery('.article-body .adsbygoogle').remove();jQuery('.article-body').removeClass('show-summary');
-jQuery('.article-header .adsbygoogle').css({height: '120px', overflow: 'hidden'});
+jQuery('.article-header .adsbygoogle').remove();
+// jQuery('.article-header .adsbygoogle').css({height: '120px', overflow: 'hidden'});
 
 jQuery('a img').parent().css('pointer-events', 'none');
 jQuery("iframe[src*='maps.google.com']").remove();
