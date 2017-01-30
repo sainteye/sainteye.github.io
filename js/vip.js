@@ -1,0 +1,1 @@
+jQuery('.pop-ad-cover').remove();jQuery('.adsbygoogle').remove();jQuery('iframe').remove();
