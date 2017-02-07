@@ -14,5 +14,6 @@ jQuery('#main .article-comments').remove(); jQuery('#header-bar__share-tools').r
 jQuery('#header .bar--reading span').remove();
 
 jQuery('#sb-site #logo').remove(); jQuery('#wrapper #toggleMenu').remove(); jQuery('#float_fb_plugin').remove();
+jQuery('#scupio_interstitialad').remove();
 // Yuki
 // jQuery('.article-header .adsbygoogle').css({height: '120px', overflow: 'hidden'});
