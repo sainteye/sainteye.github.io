@@ -21,5 +21,6 @@ var sssheet = (function() {
 	return style.sheet;
 })();
 sssheet.insertRule("#scupio_interstitialad { display: none !important; }", 0);
+sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
 // Yuki
 // jQuery('.article-header .adsbygoogle').css({height: '120px', overflow: 'hidden'});
