@@ -1,3 +1,11 @@
+if (window.location.href.indexOf('yukiblog.tw')!=-1) {
+	$('.adsbygoogle').remove();$('.postad').remove();$("iframe").remove();
+	return;
+}
+
+if (window.location.href.indexOf('pixnet')==-1) {
+	return;
+}
 jQuery('#pixad1101d').css('overflow', 'hidden');jQuery('.sticky-box').remove();
 jQuery('#main').css('overflow', 'hidden');jQuery('.article-body iframe').remove();
 jQuery('.article-body .adsbygoogle').remove();jQuery('.article-body').removeClass('show-summary');
