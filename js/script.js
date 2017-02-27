@@ -1,8 +1,4 @@
-if (window.location.href.indexOf('yukiblog.tw')!=-1) {
-	$('.adsbygoogle').remove();$('.postad').remove();$("iframe").remove();
-}
-
-else if (window.location.href.indexOf('pixnet')!=-1) {
+if (window.location.href.indexOf('pixnet')!=-1) {
 	jQuery('#pixad1101d').css('overflow', 'hidden');jQuery('.sticky-box').remove();
 	jQuery('#main').css('overflow', 'hidden');jQuery('.article-body iframe').remove();
 	jQuery('.article-body .adsbygoogle').remove();jQuery('.article-body').removeClass('show-summary');
@@ -27,7 +23,24 @@ else if (window.location.href.indexOf('pixnet')!=-1) {
 	})();
 	sssheet.insertRule("#scupio_interstitialad { display: none !important; }", 0);
 	sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
+
+	if (window.location.href.indexOf('bluehero.pixnet')!=-1) {
+		jQuery('table,embed').width('100%');
+	}
 }
+else if (window.location.href.indexOf('yukiblog.tw')!=-1) {
+	$('.adsbygoogle').remove();$('.postad').remove();$("iframe").remove();
+}
+else if (window.location.href.indexOf('wiselyview.cc')!=-1) {
+	jQuery("iframe").remove();jQuery("#aswift_0_expand").remove();jQuery("#aswift_3_expand").remove();
+}
+else if (window.location.href.indexOf('candicecity.com')!=-1) {
+	jQuery('.adsbygoogle, .sharedaddy').remove();
+}
+else if (window.location.href.indexOf('yuann.tw')!=-1) {
+	jQuery("a[href='http://radarurl.com/monitor']").remove();
+}
+
 
 // Yuki
 // jQuery('.article-header .adsbygoogle').css({height: '120px', overflow: 'hidden'});
