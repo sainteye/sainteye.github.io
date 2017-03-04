@@ -1,4 +1,13 @@
+
+var isPixnet = false;
 if (window.location.href.indexOf('pixnet')!=-1) {
+	isPixnet = true;
+}
+if (window.location.href.indexOf('paulyear.com')!=-1) {
+	isPixnet = true;
+}
+
+if (isPixnet) {
 	jQuery('#pixad1101d').css('overflow', 'hidden');jQuery('.sticky-box').remove();
 	jQuery('#main').css('overflow', 'hidden');jQuery('.article-body iframe').remove();
 	jQuery('.article-body .adsbygoogle').remove();jQuery('.article-body').removeClass('show-summary');
@@ -40,6 +49,10 @@ else if (window.location.href.indexOf('candicecity.com')!=-1) {
 else if (window.location.href.indexOf('yuann.tw')!=-1) {
 	jQuery("a[href='http://radarurl.com/monitor']").remove();
 }
+else if (window.location.href.indexOf('ladymoko.com')!=-1) {
+	jQuery('.adsbygoogle').remove();
+}
+
 
 
 // Yuki
