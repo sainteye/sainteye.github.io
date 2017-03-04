@@ -1,3 +1,9 @@
+var sssheet = (function() {
+	var style = document.createElement("style");
+	style.appendChild(document.createTextNode(""));
+	document.head.appendChild(style);
+	return style.sheet;
+})();
 
 var isPixnet = false;
 if (window.location.href.indexOf('pixnet')!=-1) {
@@ -24,12 +30,7 @@ if (isPixnet) {
 	jQuery('#header .bar--reading span').remove();
 
 	jQuery('#sb-site #logo').remove(); jQuery('#wrapper #toggleMenu').remove(); jQuery('#float_fb_plugin').remove();
-	var sssheet = (function() {
-		var style = document.createElement("style");
-		style.appendChild(document.createTextNode(""));
-		document.head.appendChild(style);
-		return style.sheet;
-	})();
+
 	sssheet.insertRule("#scupio_interstitialad { display: none !important; }", 0);
 	sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
 
@@ -52,6 +53,11 @@ else if (window.location.href.indexOf('yuann.tw')!=-1) {
 else if (window.location.href.indexOf('ladymoko.com')!=-1) {
 	jQuery('.adsbygoogle').remove();
 }
+else if (window.location.href.indexOf('xuite.net')!=-1) {
+	jQuery('#rmiad').remove();
+	sssheet.insertRule("#rmiad { display: none !important; }", 0);
+}
+
 
 
 
