@@ -33,6 +33,7 @@ if (isPixnet) {
 
 	sssheet.insertRule("#scupio_interstitialad { display: none !important; }", 0);
 	sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
+	sssheet.insertRule(".pi-ad-mobile-tag-outer { display: none !important; }", 0);
 
 	if (window.location.href.indexOf('bluehero.pixnet')!=-1) {
 		jQuery('table,embed').width('100%');
@@ -46,6 +47,7 @@ else if (window.location.href.indexOf('wiselyview.cc')!=-1) {
 }
 else if (window.location.href.indexOf('candicecity.com')!=-1) {
 	jQuery('.adsbygoogle, .sharedaddy').remove();
+	sssheet.insertRule(".pi-ad-mobile-tag-outer { display: none !important; }", 0);
 }
 else if (window.location.href.indexOf('yuann.tw')!=-1) {
 	jQuery("a[href='http://radarurl.com/monitor']").remove();
