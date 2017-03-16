@@ -43,11 +43,15 @@ else if (window.location.href.indexOf('yukiblog.tw')!=-1) {
 	$('.adsbygoogle').remove();$('.postad').remove();$("iframe").remove();
 }
 else if (window.location.href.indexOf('wiselyview.cc')!=-1) {
+	sssheet.insertRule("#top-btn { display: none !important; }", 0);
+}
+else if (window.location.href.indexOf('wiselyview.cc')!=-1) {
 	jQuery("iframe").remove();jQuery("#aswift_0_expand").remove();jQuery("#aswift_3_expand").remove();
 }
 else if (window.location.href.indexOf('candicecity.com')!=-1) {
 	jQuery('.adsbygoogle, .sharedaddy').remove();
 	sssheet.insertRule(".pi-ad-mobile-tag-outer { display: none !important; }", 0);
+	sssheet.insertRule(".pi-Ad-mb-stick { display: none !important; }", 0);
 }
 else if (window.location.href.indexOf('yuann.tw')!=-1) {
 	jQuery("a[href='http://radarurl.com/monitor']").remove();
