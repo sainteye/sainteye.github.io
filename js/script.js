@@ -12,6 +12,9 @@ if (window.location.href.indexOf('pixnet')!=-1) {
 if (window.location.href.indexOf('paulyear.com')!=-1) {
 	isPixnet = true;
 }
+if (window.location.href.indexOf('nellydyu.tw')!=-1) {
+	isPixnet = true;
+}
 
 if (isPixnet) {
 	jQuery('#pixad1101d').css('overflow', 'hidden');jQuery('.sticky-box').remove();
