@@ -18,6 +18,9 @@ if (window.location.href.indexOf('nellydyu.tw')!=-1) {
 if (window.location.href.indexOf('timmyblog.cc')!=-1) {
 	isPixnet = true;
 }
+if (window.location.href.indexOf('mecocute.com')!=-1) {
+	isPixnet = true;
+}
 
 if (isPixnet) {
 	jQuery('#pixad1101d').css('overflow', 'hidden');jQuery('.sticky-box').remove();
