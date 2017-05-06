@@ -57,6 +57,10 @@ else if (window.location.href.indexOf('yukiblog.tw')!=-1) {
 else if (window.location.href.indexOf('wiselyview.cc')!=-1) {
 	sssheet.insertRule("#top-btn { display: none !important; }", 0);
 }
+else if (window.location.href.indexOf('mshw.info')!=-1) {
+	sssheet.insertRule("#page { overflow: hidden; }", 0);
+	sssheet.insertRule(".adsbygoogle { display: none !important; }", 0);
+}
 else if (window.location.href.indexOf('wiselyview.cc')!=-1) {
 	jQuery("iframe").remove();jQuery("#aswift_0_expand").remove();jQuery("#aswift_3_expand").remove();
 }
