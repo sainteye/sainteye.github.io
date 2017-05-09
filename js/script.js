@@ -64,6 +64,11 @@ else if (window.location.href.indexOf('mshw.info')!=-1) {
 else if (window.location.href.indexOf('wiselyview.cc')!=-1) {
 	jQuery("iframe").remove();jQuery("#aswift_0_expand").remove();jQuery("#aswift_3_expand").remove();
 }
+else if (window.location.href.indexOf('lanlan-life.com')!=-1) {
+	sssheet.insertRule("#header { display: none !important; }", 0);
+	sssheet.insertRule("#sharebar { display: none !important; }", 0);
+	sssheet.insertRule("#sharebar-block { display: none !important; }", 0);
+}
 else if (window.location.href.indexOf('candicecity.com')!=-1) {
 	jQuery('.adsbygoogle, .sharedaddy').remove();
 	sssheet.insertRule(".pi-ad-mobile-tag-outer { display: none !important; }", 0);
