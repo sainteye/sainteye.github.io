@@ -9,6 +9,9 @@ var isPixnet = false;
 if (window.location.href.indexOf('pixnet')!=-1) {
 	isPixnet = true;
 }
+if (window.location.href.indexOf('fupo.tw')!=-1) {
+	isPixnet = true;
+}
 if (window.location.href.indexOf('paulyear.com')!=-1) {
 	isPixnet = true;
 }
