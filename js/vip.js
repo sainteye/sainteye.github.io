@@ -10,3 +10,7 @@ sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
 sssheet.insertRule(".fbAdLink { display: none !important; }", 0);
 sssheet.insertRule(".header-ad { display: none !important; }", 0);
 sssheet.insertRule("#ad_root, #ad_root_2, #ad_root_3 { display: none !important; }", 0);
+
+if (window.location.href.indexOf('ifoodie.tw')==-1) {
+	sssheet.insertRule("iframe { display: none !important; }", 0);
+}
