@@ -6,7 +6,6 @@ var sssheet = (function() {
 })();
 
 sssheet.insertRule(".adsbygoogle { display: none !important; }", 0);
-sssheet.insertRule("iframe { display: none !important; }", 0);
 sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
 sssheet.insertRule(".fbAdLink { display: none !important; }", 0);
 sssheet.insertRule(".header-ad { display: none !important; }", 0);
