@@ -14,6 +14,7 @@ else if (window.location.href.indexOf('wiselyview.cc')!=-1) {
 else if (window.location.href.indexOf('mshw.info')!=-1) {
 	sssheet.insertRule("#page { overflow: hidden; }", 0);
 	sssheet.insertRule(".adsbygoogle { display: none !important; }", 0);
+	sssheet.insertRule(".shr_ss { display: none !important; }", 0);
 }
 else if (window.location.href.indexOf('wiselyview.cc')!=-1) {
 	jQuery("iframe").remove();jQuery("#aswift_0_expand").remove();jQuery("#aswift_3_expand").remove();
@@ -44,6 +45,7 @@ else if (window.location.href.indexOf('xuite.net')!=-1) {
 
 sssheet.insertRule(".pi-ad-mobile-tag-outer { display: none !important; }", 0);
 sssheet.insertRule(".pi-Ad-mb-stick { display: none !important; }", 0);
+sssheet.insertRule(".pi-Ad-mb-stick { visibility: hidden !important; }", 0);
 // sssheet.insertRule(".adsbygoogle ins { display: none !important; }", 0);
 sssheet.insertRule(".nc_wrapper .floatBottom { display: none !important; }", 0);
 
