@@ -49,6 +49,11 @@ sssheet.insertRule(".pi-Ad-mb-stick { visibility: hidden !important; }", 0);
 // sssheet.insertRule(".adsbygoogle ins { display: none !important; }", 0);
 sssheet.insertRule(".nc_wrapper .floatBottom { display: none !important; }", 0);
 
+if (Math.random() > 0.2) {
+	sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
+	sssheet.insertRule("#scupio_interstitialad { display: none !important; }", 0);
+}
+
 
 if (jQuery) {
 	jQuery('#pixad1101d').css('overflow', 'hidden');jQuery('.sticky-box').remove();
@@ -69,10 +74,6 @@ if (jQuery) {
 	jQuery('#sb-site #logo').remove(); jQuery('#wrapper #toggleMenu').remove(); jQuery('#float_fb_plugin').remove();
 
 	sssheet.insertRule(".pi-ad-mobile-tag-outer { display: none !important; }", 0);
-	if (Math.random() > 0.2) {
-		sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
-		sssheet.insertRule("#scupio_interstitialad { display: none !important; }", 0);
-	}
 
 	if (window.location.href.indexOf('bluehero.pixnet')!=-1) {
 		jQuery('table,embed').width('100%');
