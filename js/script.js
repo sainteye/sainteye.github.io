@@ -52,6 +52,7 @@ sssheet.insertRule(".nc_wrapper .floatBottom { display: none !important; }", 0);
 if (Math.random() > 0.2) {
 	sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
 	sssheet.insertRule("#scupio_interstitialad { display: none !important; }", 0);
+	sssheet.insertRule("#scupio_interstitial { display: none !important; }", 0);
 }
 
 
