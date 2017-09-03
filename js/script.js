@@ -16,6 +16,9 @@ else if (window.location.href.indexOf('mshw.info')!=-1) {
 	sssheet.insertRule(".adsbygoogle { display: none !important; }", 0);
 	sssheet.insertRule(".shr_ss { display: none !important; }", 0);
 }
+else if (window.location.href.indexOf('meishijournal.com')!=-1) {
+	sssheet.insertRule(".adsbygoogle { display: none !important; }", 0);
+}
 else if (window.location.href.indexOf('wiselyview.cc')!=-1) {
 	jQuery("iframe").remove();jQuery("#aswift_0_expand").remove();jQuery("#aswift_3_expand").remove();
 }
