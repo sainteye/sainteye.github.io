@@ -78,6 +78,9 @@ if (jQuery) {
 	jQuery('#sb-site #logo').remove(); jQuery('#wrapper #toggleMenu').remove(); jQuery('#float_fb_plugin').remove();
 
 	sssheet.insertRule(".pi-ad-mobile-tag-outer { display: none !important; }", 0);
+	sssheet.insertRule(".right-nav-stream-button { display: none !important; }", 0);
+	sssheet.insertRule(".right-nav-share-button { display: none !important; }", 0);
+	sssheet.insertRule(".sticky-box { display: none !important; }", 0);
 
 	if (window.location.href.indexOf('bluehero.pixnet')!=-1) {
 		jQuery('table,embed').width('100%');
