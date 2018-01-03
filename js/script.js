@@ -5,7 +5,11 @@ var sssheet = (function() {
 	return style.sheet;
 })();
 
-if (window.location.href.indexOf('yukiblog.tw')!=-1) {
+if (window.location.href.indexOf('ifoodie.tw/post')!=-1) {
+	sssheet.insertRule("#header { display: none !important; }", 0);
+}
+
+else if (window.location.href.indexOf('yukiblog.tw')!=-1) {
 	$('.adsbygoogle').remove();$('.postad').remove();$("iframe").remove();
 }
 else if (window.location.href.indexOf('wiselyview.cc')!=-1) {
