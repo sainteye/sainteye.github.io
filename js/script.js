@@ -5,6 +5,10 @@ var sssheet = (function() {
 	return style.sheet;
 })();
 
+if (window.location.href.indexOf('ifoodie.tw')==-1) {
+	sssheet.insertRule(".adsbygoogle:last-child { display: none !important; }", 0);
+}
+
 if (window.location.href.indexOf('ifoodie.tw/post')!=-1) {
 	sssheet.insertRule("#header { display: none !important; }", 0);
 }
