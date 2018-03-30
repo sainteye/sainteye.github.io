@@ -9,6 +9,7 @@ sssheet.insertRule(".adsbygoogle { display: none !important; }", 0);
 sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
 sssheet.insertRule("#scupio_interstitialad { display: none !important; }", 0);
 sssheet.insertRule("#scupio_interstitial { display: none !important; }", 0);
+sssheet.insertRule("#incover-layout0 { display: none !important; }", 0);
 sssheet.insertRule(".fbAdLink { display: none !important; }", 0);
 sssheet.insertRule(".header-ad { display: none !important; }", 0);
 sssheet.insertRule("#ad_root, #ad_root_2, #ad_root_3 { display: none !important; }", 0);
