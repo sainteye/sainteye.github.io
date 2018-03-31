@@ -35,6 +35,10 @@ else if (window.location.href.indexOf('lanlan-life.com')!=-1) {
 	sssheet.insertRule("#sharebar { display: none !important; }", 0);
 	sssheet.insertRule("#sharebar-block { display: none !important; }", 0);
 }
+else if (window.location.href.indexOf('fengtaiwanway')!=-1) {
+	sssheet.insertRule(".left-side-menu { display: none !important; }", 0);
+	sssheet.insertRule(".Ba_Ad { display: none !important; }", 0);
+}
 else if (window.location.href.indexOf('candicecity.com')!=-1) {
 	jQuery('.adsbygoogle, .sharedaddy').remove();
 	sssheet.insertRule(".pi-ad-mobile-tag-outer { display: none !important; }", 0);
