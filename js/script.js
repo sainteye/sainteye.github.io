@@ -6,8 +6,11 @@ var sssheet = (function() {
 })();
 
 if (window.location.href.indexOf('ifoodie.tw')==-1) {
+	// Remove floating ad
 	sssheet.insertRule(".adsbygoogle:last-child { display: none !important; }", 0);
+	sssheet.insertRule(".adsbygoogle[data-anchor-shown='true'] { display: none !important; }", 0);
 }
+
 
 if (window.location.href.indexOf('ifoodie.tw/post')!=-1) {
 	sssheet.insertRule("#header { display: none !important; }", 0);
