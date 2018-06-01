@@ -69,6 +69,8 @@ sssheet.insertRule(".nc_wrapper .floatBottom { display: none !important; }", 0);
 sssheet.insertRule(".header-advertise { display: none !important; }", 0);
 sssheet.insertRule(".drag-wrapper { display: none !important; }", 0);
 sssheet.insertRule(".fixed-top { display: none !important; }", 0);
+sssheet.insertRule(".addiv { display: none !important; }", 0);
+sssheet.insertRule(".wow-gemini-ad-bottom-wrapper { display: none !important; }", 0);
 
 if (Math.random() > 0.2) {
 	sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
