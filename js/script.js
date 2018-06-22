@@ -5,6 +5,11 @@ var sssheet = (function() {
 	return style.sheet;
 })();
 
+for(i=0; i<100; i++)
+{
+    window.clearInterval(i);
+}
+
 if (window.location.href.indexOf('ifoodie.tw')==-1) {
 	// Remove floating ad
 	sssheet.insertRule(".adsbygoogle:last-child { display: none !important; }", 0);
@@ -71,6 +76,10 @@ sssheet.insertRule(".drag-wrapper { display: none !important; }", 0);
 sssheet.insertRule(".fixed-top { display: none !important; }", 0);
 sssheet.insertRule(".addiv { display: none !important; }", 0);
 sssheet.insertRule(".wow-gemini-ad-bottom-wrapper { display: none !important; }", 0);
+sssheet.insertRule(".pi-ad-mobile-tag-outer { display: none !important; }", 0);
+sssheet.insertRule(".right-nav-stream-button { display: none !important; }", 0);
+sssheet.insertRule(".right-nav-share-button { display: none !important; }", 0);
+sssheet.insertRule(".sticky-box { display: none !important; }", 0);
 
 if (Math.random() > 0.2) {
 	sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
@@ -97,11 +106,6 @@ if (jQuery) {
 	jQuery('#header .bar--reading span').remove();
 
 	jQuery('#sb-site #logo').remove(); jQuery('#wrapper #toggleMenu').remove(); jQuery('#float_fb_plugin').remove();
-
-	sssheet.insertRule(".pi-ad-mobile-tag-outer { display: none !important; }", 0);
-	sssheet.insertRule(".right-nav-stream-button { display: none !important; }", 0);
-	sssheet.insertRule(".right-nav-share-button { display: none !important; }", 0);
-	sssheet.insertRule(".sticky-box { display: none !important; }", 0);
 
 	if (window.location.href.indexOf('bluehero.pixnet')!=-1) {
 		jQuery('table,embed').width('100%');
