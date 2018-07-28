@@ -65,6 +65,10 @@ else if (window.location.href.indexOf('xuite.net')!=-1) {
 	sssheet.insertRule("#rmiad { display: none !important; }", 0);
 }
 else if (window.location.href.indexOf('ifoodie.tw')==-1) {
+	sssheet.insertRule(".subscribe-bar-container { display: none !important; }", 0);
+	sssheet.insertRule(".article-author__subscribe { display: none !important; }", 0);
+	sssheet.insertRule(".pixnavbar__top-bar__list { display: none !important; }", 0);
+	
 	sssheet.insertRule(".pi-ad-mobile-tag-outer { display: none !important; }", 0);
 	sssheet.insertRule(".pi-Ad-mb-stick { display: none !important; }", 0);
 	sssheet.insertRule(".pi-Ad-mb-stick { visibility: hidden !important; }", 0);
