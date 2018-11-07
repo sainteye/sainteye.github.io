@@ -30,6 +30,7 @@ else if (window.location.href.indexOf('yukiblog.tw')!=-1) {
 }
 else if (window.location.href.indexOf('wiselyview.cc')!=-1) {
 	sssheet.insertRule("#top-btn { display: none !important; }", 0);
+	sssheet.insertRule("iframe { display: none !important; }", 0);
 }
 else if (window.location.href.indexOf('mshw.info')!=-1) {
 	sssheet.insertRule("#page { overflow: hidden; }", 0);
@@ -89,7 +90,7 @@ else if (window.location.href.indexOf('ifoodie.tw')==-1) {
 	sssheet.insertRule(".right-nav-share-button { display: none !important; }", 0);
 	sssheet.insertRule(".sticky-box { display: none !important; }", 0);
 	sssheet.insertRule("#pilot { display: none !important; }", 0);
-	sssheet.insertRule(".fb-like.fb_iframe_widget { display: none !important; }", 0);
+	sssheet.insertRule(".fb_iframe_widget { display: none !important; }", 0);
 
 	if (Math.random() > 0.2) {
 		sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
