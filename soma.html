@@ -1,0 +1,57 @@
+<html>
+  <head>
+  <title>Soma</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+  </head>
+  <body> 
+     <div id="page" style="width: 100%; height: 100%; text-align: center;">
+        <canvas id="cvs" width="500" height="800">
+        </canvas>
+     </div>
+
+     <script type="text/javascript">
+       let context = '';
+       let text = '';
+       let canvaWidth = 500
+       let canvaHeight = 800;
+
+       (function() {
+        context = document.getElementById("cvs").getContext("2d");            
+        setInterval("animate()", 50);
+       })();
+
+       function animate() {            
+           // Clear screen
+           context.clearRect(0, 0, canvaWidth, canvaHeight)
+           context.globalAlpha = 1
+           context.fillStyle = '#fff'
+           context.fillRect(0, 0, canvaWidth, canvaHeight)
+           let textX = canvaWidth/2.0
+           let textY = 100
+
+           let lineNum = 10
+
+           context.font = '40px _sans'
+           context.fillStyle = '#000'
+           context.textBaseline = 'top'
+           let baseY = 0
+
+           _.range(lineNum).map(function(){
+            let text = _.sample(WORDS)
+            if (!text) {
+              text = _.sample(WORDS)
+            }
+            let metrics = context.measureText(text)
+            let textWidth = metrics.width
+            context.fillText(text, textX-textWidth/2.0, textY+baseY)
+            baseY = baseY + 50
+           })
+
+       }    
+       var WORDS = [
+        '迅速','有魅力','運氣好','強壯','結實','完美',,'有錢','決斷迅速','健康','能力超強','企業家','直覺敏銳','優雅','決斷力高','手指靈活','雙腳健壯','肌肉結實','擁有智慧','聰明','天才','迷人的笑容','動作協調','想像力豐富','生活有趣','交遊廣闊','想法成熟','博學多聞','仁慈','博愛','性慾高','女人緣佳','持久','夢想家','實踐力強','言出必行','堅定','文藻豐富','運動選手','專家','技術高強','能言善道','面帶微笑','體態健美','萬夫莫敵','天生的好手','血脈賁張','性感','幽默風趣','靈巧','有藝術氣息','文思泉湧','奮筆疾書','天縱英才','操控性強','敏銳','茂密','濃密','強','快','濃稠','富有營養的','飛行','狂傲','思緒清晰','六塊腹肌','二頭肌','手臂粗壯','筋骨舒暢','悅耳','敏銳','千里','聽覺敏銳','富有創意','多產的','男性氣息濃厚','鬍子','飛快','賽車','跳投','殺球','拳擊','擁有自信','英雄','勇者','潮濕','女人','撫摸','挑逗','嘴唇','光滑','柔軟','白皙','陸戰隊','特種部隊','啞鈴','謀略','受人喜愛','青筋暴漲','緊握','呼吸','充足的','順暢','廣大','刺激','韻味深遠','仰臥起坐','伏地挺身','舉重','拉背','閱讀','開懷大笑','優美','精巧','輕盈','口若懸河','充滿自信','彈跳','快速','衝刺','奔跑','跳躍','胸肌','在掌握中','左勾拳','擊出','臥推','自信的微笑','舉起','舞台魅力','表演','熱舞','自信演說','充滿營養','甜蜜','快速解決','決斷力強','一手掌握','力量','粗筋','粗壯','狙擊手','立正','彈性的','舒暢的','富有的','充足','豐富','飽滿','茂盛','勝利','影響他人','結構穩健','強化','目光如炬','穩健','天空','帝國','權力','控制','凱旋','吸引人的','體態勻稱','陽光','草地','光明','光線','有彈性','開心','放鬆','輕鬆','舒展開來','展開','深呼吸','吐氣','吸氣','偉大','雄偉','光亮','伸展','遠見','具說服力','如風','疾速','無限','向前衝刺','味覺敏銳','狠','堅硬','揮擊','股掌之間','翻攪','舉體向上','拳擊手','高中女生','臀部結實','緊身禮服','威士忌','鬍渣', '性感', '刺激'
+       ]
+       </script>
+
+  </body>
+</html>
