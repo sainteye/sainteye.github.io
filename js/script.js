@@ -15,6 +15,7 @@ if (window.location.href.indexOf('ifoodie.tw')==-1) {
 	sssheet.insertRule(".adsbygoogle:last-child { display: none !important; }", 0);
 	sssheet.insertRule(".adsbygoogle[data-anchor-shown='true'] { display: none !important; }", 0);
 	sssheet.insertRule("#blogimoveSLIDE { display: none !important; }", 0);
+	sssheet.insertRule(".nc_wrapper.bottom { display: none !important; }", 0);
 	// Remove sticky anything
 	sssheet.insertRule(".sticky { display: none !important; }", 0);
     sssheet.insertRule(".addiv { display: none !important; }", 0);
