@@ -26,6 +26,11 @@ if (window.location.href.indexOf('ifoodie.tw/post')!=-1) {
 	sssheet.insertRule("#header { display: none !important; }", 0);
 }
 
+else if (window.location.href.indexOf('leafyeh.com')!=-1) {
+	sssheet.insertRule(".left-side-menu { display: none !important; }", 0);
+	sssheet.insertRule(".scrollup { display: none !important; }", 0);
+}
+
 else if (window.location.href.indexOf('mecocute.com')!=-1) {
 	sssheet.insertRule("#header { display: none !important; }", 0);
 }
