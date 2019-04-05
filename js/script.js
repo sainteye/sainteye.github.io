@@ -64,7 +64,6 @@ else if (window.location.href.indexOf('fengtaiwanway')!=-1) {
 }
 else if (window.location.href.indexOf('candicecity.com')!=-1) {
 	jQuery('.adsbygoogle, .sharedaddy').remove();
-	sssheet.insertRule(".pi-ad-mobile-tag-outer { display: none !important; }", 0);
 	sssheet.insertRule(".pi-Ad-mb-stick { display: none !important; }", 0);
 }
 else if (window.location.href.indexOf('starwing.cc')!=-1) {
@@ -80,7 +79,8 @@ else if (window.location.href.indexOf('xuite.net')!=-1) {
 	jQuery('#rmiad').remove();
 	sssheet.insertRule("#rmiad { display: none !important; }", 0);
 }
-else if (window.location.href.indexOf('ifoodie.tw')==-1) {
+
+if (window.location.href.indexOf('ifoodie.tw')==-1) {
 	sssheet.insertRule(".subscribe-bar-container { display: none !important; }", 0);
 	sssheet.insertRule(".article-author__subscribe { display: none !important; }", 0);
 	sssheet.insertRule(".pixnavbar__top-bar__list { display: none !important; }", 0);
@@ -95,7 +95,6 @@ else if (window.location.href.indexOf('ifoodie.tw')==-1) {
 	sssheet.insertRule(".fixed-top { display: none !important; }", 0);
 	sssheet.insertRule(".addiv { display: none !important; }", 0);
 	sssheet.insertRule(".wow-gemini-ad-bottom-wrapper { display: none !important; }", 0);
-	sssheet.insertRule(".pi-ad-mobile-tag-outer { display: none !important; }", 0);
 	sssheet.insertRule(".right-nav-stream-button { display: none !important; }", 0);
 	sssheet.insertRule(".right-nav-share-button { display: none !important; }", 0);
 	sssheet.insertRule(".sticky-box { display: none !important; }", 0);
@@ -108,7 +107,6 @@ else if (window.location.href.indexOf('ifoodie.tw')==-1) {
 		sssheet.insertRule("#scupio_interstitial { display: none !important; }", 0);
 		sssheet.insertRule("#incover-layout0 { display: none !important; }", 0);
 	}
-
 	
 	sssheet.insertRule(".sticky-box { display: none !important; }", 0);
 	sssheet.insertRule("#pixad1101d { overflow: hidden !important; }", 0);
