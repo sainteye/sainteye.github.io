@@ -5,11 +5,6 @@ var sssheet = (function() {
 	return style.sheet;
 })();
 
-// for(i=0; i<100; i++)
-// {
-//     window.clearInterval(i);
-// }
-
 if (window.location.href.indexOf('ifoodie.tw')==-1) {
 	// Remove floating ad
 	sssheet.insertRule(".adsbygoogle:last-child { display: none !important; }", 0);
@@ -20,6 +15,11 @@ if (window.location.href.indexOf('ifoodie.tw')==-1) {
 	sssheet.insertRule(".sticky { display: none !important; }", 0);
     sssheet.insertRule(".addiv { display: none !important; }", 0);
     sssheet.insertRule(".wow-gemini-ad-bottom-wrapper { display: none !important; }", 0);
+
+    for(i=0; i<100; i++)
+    {
+        window.clearInterval(i);
+    }
 }
 
 if (window.location.href.indexOf('ifoodie.tw/post')!=-1) {
