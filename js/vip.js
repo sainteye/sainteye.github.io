@@ -6,6 +6,7 @@ var sssheet = (function() {
 })();
 
 sssheet.insertRule(".adsbygoogle { display: none !important; }", 0);
+sssheet.insertRule(".ads { display: none !important; }", 0);
 sssheet.insertRule(".pop-ad-cover { display: none !important; }", 0);
 sssheet.insertRule("#scupio_interstitialad { display: none !important; }", 0);
 sssheet.insertRule("#scupio_interstitial { display: none !important; }", 0);
