@@ -25,6 +25,14 @@ if (window.location.href.indexOf('ifoodie.tw')==-1) {
     }, 5000)
 }
 
+if (window.location.href.indexOf('mirrormedia.mg')!=-1) {
+	sssheet.insertRule(".header.scrolled .header__section-layer { position: relative !important; }", 0);
+	sssheet.insertRule(".header.scrolled .header__logo-layer { position: relative !important; }", 0);
+	sssheet.insertRule(".relateds-over-content { display: none !important; }", 0);
+	sssheet.insertRule(".dfp-st { display: none !important; }", 0);
+}
+
+
 if (window.location.href.indexOf('ifoodie.tw/post')!=-1) {
 	sssheet.insertRule("#header { display: none !important; }", 0);
 }
