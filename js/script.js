@@ -24,7 +24,7 @@ if (window.location.href.indexOf('ifoodie.tw')==-1) {
     	{
     	    window.clearInterval(i);
     	}
-    }, 50000)
+    }, 5000)
 }
 
 if (window.location.href.indexOf('mirrormedia.mg')!=-1) {
