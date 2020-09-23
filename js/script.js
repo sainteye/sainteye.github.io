@@ -8,6 +8,7 @@ var sssheet = (function() {
 if (window.location.href.indexOf('ifoodie.tw')==-1) {
 	// Remove floating ad
 	sssheet.insertRule(".adsbygoogle:last-child { display: none !important; }", 0);
+	sssheet.insertRule(".anchor-ad-container { display: none !important; }", 0);
 	sssheet.insertRule(".adsbygoogle[data-anchor-shown='true'] { display: none !important; }", 0);
 	sssheet.insertRule("#blogimoveSLIDE { display: none !important; }", 0);
 	sssheet.insertRule("#hellobar-bar { display: none !important; }", 0);
@@ -23,7 +24,7 @@ if (window.location.href.indexOf('ifoodie.tw')==-1) {
     	{
     	    window.clearInterval(i);
     	}
-    }, 5000)
+    }, 50000)
 }
 
 if (window.location.href.indexOf('mirrormedia.mg')!=-1) {
@@ -105,6 +106,9 @@ if (window.location.href.indexOf('ifoodie.tw')==-1) {
 	sssheet.insertRule(".pi-Ad-mb-stick { display: none !important; }", 0);
 	sssheet.insertRule(".pi-Ad-mb-stick { visibility: hidden !important; }", 0);
 	// sssheet.insertRule(".adsbygoogle ins { display: none !important; }", 0);
+	// sssheet.insertRule(".article-body iframe { display: none !important; }", 0);
+	// sssheet.insertRule(".article-body .adsbygoogle { display: none !important; }", 0);
+	// sssheet.insertRule(".article-header .adsbygoogle { display: none !important; }", 0);
 	sssheet.insertRule(".nc_wrapper .floatBottom { display: none !important; }", 0);
 	sssheet.insertRule(".header-advertise { display: none !important; }", 0);
 	sssheet.insertRule(".drag-wrapper { display: none !important; }", 0);
@@ -127,9 +131,6 @@ if (window.location.href.indexOf('ifoodie.tw')==-1) {
 	sssheet.insertRule(".sticky-box { display: none !important; }", 0);
 	sssheet.insertRule("#pixad1101d { overflow: hidden !important; }", 0);
 	sssheet.insertRule("#main { overflow: hidden !important; }", 0);
-	sssheet.insertRule(".article-body iframe { display: none !important; }", 0);
-	sssheet.insertRule(".article-body .adsbygoogle { display: none !important; }", 0);
-	sssheet.insertRule(".article-header .adsbygoogle { display: none !important; }", 0);
 	sssheet.insertRule(".header-ad { height: 120px !important; }", 0);
 	sssheet.insertRule("#main .relative-article { display: none !important; }", 0);
 	sssheet.insertRule(".article-body { overflow-x: hidden !important; }", 0);
