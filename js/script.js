@@ -15,6 +15,7 @@ if (window.location.href.indexOf('ifoodie.tw')==-1) {
 	sssheet.insertRule("#gtx-trans { display: none !important; }", 0);
 	sssheet.insertRule("#banner-wrapper { display: none !important; }", 0);
 	sssheet.insertRule(".nc_wrapper.bottom { display: none !important; }", 0);
+	sssheet.insertRule(".mystickyelements-fixed { display: none !important; }", 0);
 	// Remove sticky anything
 	sssheet.insertRule(".sticky { display: none !important; }", 0);
 	sssheet.insertRule(".anchor-ad { display: none !important; }", 0);
