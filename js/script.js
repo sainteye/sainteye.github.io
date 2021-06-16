@@ -13,9 +13,11 @@ if (window.location.href.indexOf('ifoodie.tw')==-1) {
 	sssheet.insertRule("#blogimoveSLIDE { display: none !important; }", 0);
 	sssheet.insertRule("#hellobar-bar { display: none !important; }", 0);
 	sssheet.insertRule("#gtx-trans { display: none !important; }", 0);
+	sssheet.insertRule("#banner-wrapper { display: none !important; }", 0);
 	sssheet.insertRule(".nc_wrapper.bottom { display: none !important; }", 0);
 	// Remove sticky anything
 	sssheet.insertRule(".sticky { display: none !important; }", 0);
+	sssheet.insertRule(".anchor-ad { display: none !important; }", 0);
     sssheet.insertRule(".addiv { display: none !important; }", 0);
     sssheet.insertRule(".wow-gemini-ad-bottom-wrapper { display: none !important; }", 0);
 
