@@ -14,6 +14,7 @@ if (window.location.href.indexOf('ifoodie.tw') == -1) {
     0
   )
   sssheet.insertRule('#blogimoveSLIDE { display: none !important; }', 0)
+  sssheet.insertRule('.friends-links { display: none !important; }', 0)
   sssheet.insertRule('#hellobar-bar { display: none !important; }', 0)
   sssheet.insertRule('#gtx-trans { display: none !important; }', 0)
   sssheet.insertRule('#banner-wrapper { display: none !important; }', 0)
