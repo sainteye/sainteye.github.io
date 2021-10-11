@@ -21,7 +21,7 @@ if (window.location.href.indexOf('ifoodie.tw') == -1) {
   sssheet.insertRule('.nc_wrapper.bottom { display: none !important; }', 0)
   sssheet.insertRule('.mystickyelements-fixed { display: none !important; }', 0)
   // Remove sticky anything
-  sssheet.insertRule('.GoTop.show { display: none !important; }', 0)
+  sssheet.insertRule('.GoTop { display: none !important; }', 0)
   sssheet.insertRule('.sticky { display: none !important; }', 0)
   sssheet.insertRule('.anchor-ad { display: none !important; }', 0)
   sssheet.insertRule('.addiv { display: none !important; }', 0)
