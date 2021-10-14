@@ -62,6 +62,7 @@ if (window.location.href.indexOf('ifoodie.tw/post') != -1) {
   sssheet.insertRule('.kp-hc { display: none !important; }', 0)
   sssheet.insertRule('.kp-header-icon { display: none !important; }', 0)
   sssheet.insertRule('.fixed-title { display: none !important; }', 0)
+  sssheet.insertRule('.vpCIZ { display: none !important; }', 0)
   sssheet.insertRule('#media_result_group { display: none !important; }', 0)
 } else if (window.location.href.indexOf('leafyeh.com') != -1) {
   sssheet.insertRule('.left-side-menu { display: none !important; }', 0)
