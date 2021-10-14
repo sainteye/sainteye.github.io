@@ -54,6 +54,9 @@ if (window.location.href.indexOf('ifoodie.tw/post') != -1) {
   sssheet.insertRule('#header { display: none !important; }', 0)
 } else if (window.location.href.indexOf('maruko.tw') != -1) {
   sssheet.insertRule('#header-inner { display: none !important; }', 0)
+} else if (window.location.href.indexOf('google.com') != -1) {
+  sssheet.insertRule('[data-attrid="kc:/location/location:third_party_aggregator_ratings"] { display: none !important; }', 0)
+  sssheet.insertRule('[data-attrid="kc:/collection/knowledge_panels/local_reviewable:rate_and_review"] { display: none !important; }', 0)
 } else if (window.location.href.indexOf('leafyeh.com') != -1) {
   sssheet.insertRule('.left-side-menu { display: none !important; }', 0)
   sssheet.insertRule('.scrollup { display: none !important; }', 0)
