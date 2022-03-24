@@ -15,6 +15,16 @@ if (window.location.href.indexOf('ifoodie.tw') == -1) {
   )
   sssheet.insertRule('#blogimoveSLIDE { display: none !important; }', 0)
   sssheet.insertRule('.friends-links { display: none !important; }', 0)
+  sssheet.insertRule('vmfive-ad-box { display: none !important; }', 0)
+  sssheet.insertRule('.AD2M-CrazyWrap { display: none !important; }', 0)
+  sssheet.insertRule(
+    '.swp_floating_horizontal_wrapper { display: none !important; }',
+    0
+  )
+  sssheet.insertRule(
+    '#zi_ad_breaktime-out-delete { display: none !important; }',
+    0
+  )
   sssheet.insertRule('#hellobar-bar { display: none !important; }', 0)
   sssheet.insertRule('#gtx-trans { display: none !important; }', 0)
   sssheet.insertRule('#banner-wrapper { display: none !important; }', 0)
@@ -55,9 +65,18 @@ if (window.location.href.indexOf('ifoodie.tw/post') != -1) {
 } else if (window.location.href.indexOf('maruko.tw') != -1) {
   sssheet.insertRule('#header-inner { display: none !important; }', 0)
 } else if (window.location.href.indexOf('google.com') != -1) {
-  sssheet.insertRule('[data-attrid="kc:/location/location:third_party_aggregator_ratings"] { display: none !important; }', 0)
-  sssheet.insertRule('[data-attrid="kc:/collection/knowledge_panels/local_reviewable:rate_and_review"] { display: none !important; }', 0)
-  sssheet.insertRule('localreviews-place-topics { display: none !important; }', 0)
+  sssheet.insertRule(
+    '[data-attrid="kc:/location/location:third_party_aggregator_ratings"] { display: none !important; }',
+    0
+  )
+  sssheet.insertRule(
+    '[data-attrid="kc:/collection/knowledge_panels/local_reviewable:rate_and_review"] { display: none !important; }',
+    0
+  )
+  sssheet.insertRule(
+    'localreviews-place-topics { display: none !important; }',
+    0
+  )
   sssheet.insertRule('g-sticky-content { display: none !important; }', 0)
   sssheet.insertRule('.kp-hc { display: none !important; }', 0)
   sssheet.insertRule('.kp-header-icon { display: none !important; }', 0)
