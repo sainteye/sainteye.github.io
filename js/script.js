@@ -17,6 +17,7 @@ if (window.location.href.indexOf('ifoodie.tw') == -1) {
   sssheet.insertRule('.friends-links { display: none !important; }', 0)
   sssheet.insertRule('vmfive-ad-box { display: none !important; }', 0)
   sssheet.insertRule('.AD2M-CrazyWrap { display: none !important; }', 0)
+  sssheet.insertRule('.pixnet-side-sticker { display: none !important; }', 0)
   sssheet.insertRule(
     '.swp_floating_horizontal_wrapper { display: none !important; }',
     0
