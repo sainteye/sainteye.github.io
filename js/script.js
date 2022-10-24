@@ -7,6 +7,7 @@ var sssheet = (function () {
 
 if (window.location.href.indexOf('ifoodie.tw') == -1) {
   // Remove floating ad
+  sssheet.insertRule('#ad-full-page { display: none !important; }', 0)
   sssheet.insertRule('.adsbygoogle:last-child { display: none !important; }', 0)
   sssheet.insertRule('.anchor-ad-container { display: none !important; }', 0)
   sssheet.insertRule(
