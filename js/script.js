@@ -6,12 +6,14 @@ var sssheet = (function () {
 })()
 
 if (window.location.href.indexOf('ifoodie.tw') == -1) {
+  // Update viewport
+  var metaElement = document.querySelector('meta[name="viewport"]')
+  if (metaElement) {
+    metaElement.setAttribute('content', 'width=device-width, initial-scale=1')
+  }
+
   // Remove floating ad
   sssheet.insertRule('#ad-full-page { display: none !important; }', 0)
-  sssheet.insertRule(
-    'div[id^="appier_preview_slot__"] { display: none !important; }',
-    0
-  )
   sssheet.insertRule(
     'html.show-safari-bottom_menu body { position: relative !important; }',
     0
