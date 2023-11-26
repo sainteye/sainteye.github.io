@@ -1,0 +1,19 @@
+{
+    "name": "ifoodie",
+    "short_name": "ifoodie",
+    "icons": [
+        {
+            "src": "https://lh3.googleusercontent.com/i7blUNtIv-kp658P2Bf819aK5YFbf_Fo-7RsdfkdF6NVnLVwE_0xk2xifiGJimdqoXFfmtYeF5NIW5k4i743bPFx--7nJg8lEe_aabyJqj4=s192-rp",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://lh3.googleusercontent.com/i7blUNtIv-kp658P2Bf819aK5YFbf_Fo-7RsdfkdF6NVnLVwE_0xk2xifiGJimdqoXFfmtYeF5NIW5k4i743bPFx--7nJg8lEe_aabyJqj4=s0-rp",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
