@@ -16,6 +16,10 @@ if (window.location.href.indexOf('ifoodie.tw') == -1) {
   sssheet.insertRule('#ad-full-page { display: none !important; }', 0)
   sssheet.insertRule('.Zi_ad_a_H { display: none !important; }', 0)
   sssheet.insertRule(
+    '.header_web_to_app__container { display: none !important; }',
+    0
+  )
+  sssheet.insertRule(
     'html.show-safari-bottom_menu body { position: relative !important; }',
     0
   )
