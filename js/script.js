@@ -6,6 +6,28 @@ var sssheet = (function () {
 })()
 
 if (window.location.href.indexOf('ifoodie.tw') == -1) {
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'visible') {
+      // console.log('使用者回到了畫面');
+      setTimeout(function () {
+        document
+          .querySelectorAll('.adsbygoogle-noablate')
+          .forEach(function (el) {
+            el.remove()
+          })
+      }, 50)
+      setTimeout(function () {
+        document
+          .querySelectorAll('.adsbygoogle-noablate')
+          .forEach(function (el) {
+            el.remove()
+          })
+      }, 150)
+    } else if (document.visibilityState === 'hidden') {
+      // console.log('使用者離開了畫面');
+    }
+  })
+
   // Update viewport
   var metaElement = document.querySelector('meta[name="viewport"]')
   if (metaElement) {
