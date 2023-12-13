@@ -1,3 +1,5 @@
+// Modules: userId, appierBidAdapter, appierBidAdapter, appierBidAdapter, appierBidAdapter, asealBidAdapter, bridgewellBidAdapter, openxBidAdapter, teadsBidAdapter, consentManagement, consentManagementGpp, consentManagementUsp, enrichmentFpdModule, gdprEnforcement, gppControl_usnat, gptPreAuction, currency, prebidServerBidAdapter, schain, criteoIdSystem, teadsIdSystem, uid2IdSystem
+
 var pbjs = pbjs || {}
 pbjs.que = pbjs.que || []
 pbjs.que.push(function () {
@@ -85,6 +87,12 @@ pbjs.que.push(function () {
           bidder: 'bridgewell',
           params: {
             cid: 19634,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18212',
           },
         },
       ],
@@ -204,6 +212,12 @@ pbjs.que.push(function () {
             cid: 19635,
           },
         },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18213',
+          },
+        },
       ],
     },
     {
@@ -239,6 +253,12 @@ pbjs.que.push(function () {
           bidder: 'bridgewell',
           params: {
             cid: 19636,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18214',
           },
         },
       ],
@@ -370,6 +390,12 @@ pbjs.que.push(function () {
             cid: 19637,
           },
         },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18215',
+          },
+        },
       ],
     },
     {
@@ -400,6 +426,12 @@ pbjs.que.push(function () {
           bidder: 'bridgewell',
           params: {
             cid: 19638,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18216',
           },
         },
       ],
@@ -558,6 +590,12 @@ pbjs.que.push(function () {
           bidder: 'bridgewell',
           params: {
             cid: 19639,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18217',
           },
         },
       ],
@@ -841,6 +879,12 @@ pbjs.que.push(function () {
           bidder: 'bridgewell',
           params: {
             cid: 19643,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18218',
           },
         },
       ],
