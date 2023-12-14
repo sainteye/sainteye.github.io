@@ -1,4 +1,5 @@
 // Modules: userId, appierBidAdapter, appierBidAdapter, appierBidAdapter, appierBidAdapter, asealBidAdapter, bridgewellBidAdapter, openxBidAdapter, teadsBidAdapter, consentManagement, consentManagementGpp, consentManagementUsp, enrichmentFpdModule, gdprEnforcement, gppControl_usnat, gptPreAuction, currency, prebidServerBidAdapter, schain, criteoIdSystem, teadsIdSystem, uid2IdSystem
+// Use: line_item_manager to create line item
 
 var pbjs = pbjs || {}
 pbjs.que = pbjs.que || []
@@ -56,6 +57,12 @@ pbjs.que.push(function () {
           bidder: 'bridgewell',
           params: {
             cid: 19647,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18846',
           },
         },
       ],
@@ -126,6 +133,12 @@ pbjs.que.push(function () {
             cid: 19641,
           },
         },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18842',
+          },
+        },
       ],
     },
     {
@@ -155,6 +168,12 @@ pbjs.que.push(function () {
           bidder: 'bridgewell',
           params: {
             cid: 19642,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18843',
           },
         },
       ],
@@ -359,6 +378,12 @@ pbjs.que.push(function () {
             cid: 19648,
           },
         },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18847',
+          },
+        },
       ],
     },
     {
@@ -484,6 +509,12 @@ pbjs.que.push(function () {
           bidder: 'bridgewell',
           params: {
             cid: 19650,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18849',
           },
         },
       ],
@@ -629,6 +660,12 @@ pbjs.que.push(function () {
             cid: 19651,
           },
         },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18850',
+          },
+        },
       ],
     },
     {
@@ -658,6 +695,12 @@ pbjs.que.push(function () {
           bidder: 'bridgewell',
           params: {
             cid: 19652,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18851',
           },
         },
       ],
@@ -738,6 +781,12 @@ pbjs.que.push(function () {
             cid: 19640,
           },
         },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18841',
+          },
+        },
       ],
     },
     {
@@ -794,6 +843,12 @@ pbjs.que.push(function () {
             cid: 19646,
           },
         },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18845',
+          },
+        },
       ],
     },
     {
@@ -848,6 +903,12 @@ pbjs.que.push(function () {
           bidder: 'bridgewell',
           params: {
             cid: 19649,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18848',
           },
         },
       ],
@@ -983,6 +1044,12 @@ pbjs.que.push(function () {
           bidder: 'bridgewell',
           params: {
             cid: 19644,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '18844',
           },
         },
       ],
