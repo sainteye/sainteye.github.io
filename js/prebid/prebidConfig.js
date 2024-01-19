@@ -301,6 +301,12 @@ pbjs.que.push(function () {
             pageId: 176031,
           },
         },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '19006',
+          },
+        },
       ],
     },
     {
@@ -323,6 +329,12 @@ pbjs.que.push(function () {
           params: {
             placementId: 191019,
             pageId: 176031,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '19007',
           },
         },
       ],
@@ -542,6 +554,12 @@ pbjs.que.push(function () {
             pageId: 176030,
           },
         },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '19008',
+          },
+        },
       ],
     },
     {
@@ -710,7 +728,7 @@ pbjs.que.push(function () {
       code: 'div-gpt-ad-1687943907042-0',
       mediaTypes: {
         banner: {
-          sizes: [[1, 1]],
+          sizes: [[1, 1], [336, 280], [300, 250]],
         },
       },
       floors: {
@@ -748,6 +766,12 @@ pbjs.que.push(function () {
           params: {
             placementId: 191018,
             pageId: 176030,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '19001',
           },
         },
       ],
@@ -812,6 +836,12 @@ pbjs.que.push(function () {
             pageId: 176030,
           },
         },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '19002',
+          },
+        },
       ],
     },
     {
@@ -872,6 +902,12 @@ pbjs.que.push(function () {
           params: {
             placementId: 191018,
             pageId: 176030,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '19004',
           },
         },
       ],
@@ -1014,6 +1050,12 @@ pbjs.que.push(function () {
           params: {
             placementId: 191019,
             pageId: 176031,
+          },
+        },
+        {
+          bidder: 'clickforce',
+          params: {
+            zone: '19005',
           },
         },
       ],
