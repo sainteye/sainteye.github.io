@@ -301,12 +301,6 @@ pbjs.que.push(function () {
             pageId: 176031,
           },
         },
-        {
-          bidder: 'clickforce',
-          params: {
-            zone: '19006',
-          },
-        },
       ],
     },
     {
@@ -766,12 +760,6 @@ pbjs.que.push(function () {
           params: {
             placementId: 191018,
             pageId: 176030,
-          },
-        },
-        {
-          bidder: 'clickforce',
-          params: {
-            zone: '19001',
           },
         },
       ],
