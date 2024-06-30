@@ -51,6 +51,7 @@ if (window.location.href.indexOf('ifoodie.tw') == -1) {
     0
   )
   sssheet.insertRule('.adsbygoogle:last-child { display: none !important; }', 0)
+  sssheet.insertRule('vmfive-ad-box { display: none !important; }', 0)
   sssheet.insertRule('.anchor-ad-container { display: none !important; }', 0)
   sssheet.insertRule(
     ".adsbygoogle[data-anchor-shown='true'] { display: none !important; }",
