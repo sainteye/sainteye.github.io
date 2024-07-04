@@ -15,6 +15,13 @@ if (window.location.href.indexOf('ifoodie.tw') == -1) {
           .forEach(function (el) {
             el.remove()
           })
+
+        document
+          .querySelectorAll('.vidverto-player-container')
+          .forEach(function (el) {
+            el.remove()
+          })
+
       }, 50)
       setTimeout(function () {
         document
@@ -37,6 +44,7 @@ if (window.location.href.indexOf('ifoodie.tw') == -1) {
   // Remove floating ad
   sssheet.insertRule('#ad-full-page { display: none !important; }', 0)
   sssheet.insertRule('.Zi_ad_a_H { display: none !important; }', 0)
+  sssheet.insertRule('.vidverto-player-container { display: none !important; }', 0)
   sssheet.insertRule(
     '.header_web_to_app__container { display: none !important; }',
     0
