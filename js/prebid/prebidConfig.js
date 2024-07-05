@@ -53,12 +53,12 @@ pbjs.que.push(function () {
             pageId: 174400,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19647,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19647,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -90,12 +90,12 @@ pbjs.que.push(function () {
             pageId: 174400,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19634,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19634,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -127,12 +127,12 @@ pbjs.que.push(function () {
             pageId: 174400,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19641,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19641,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -164,12 +164,12 @@ pbjs.que.push(function () {
             pageId: 174400,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19642,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19642,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -225,12 +225,12 @@ pbjs.que.push(function () {
             pageId: 176031,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19635,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19635,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -268,12 +268,12 @@ pbjs.que.push(function () {
             pageId: 176031,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19636,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19636,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -378,12 +378,12 @@ pbjs.que.push(function () {
             pageId: 176031,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19648,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19648,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -415,12 +415,12 @@ pbjs.que.push(function () {
             pageId: 176030,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19637,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19637,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -453,12 +453,12 @@ pbjs.que.push(function () {
             pageId: 176030,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19638,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19638,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -511,12 +511,12 @@ pbjs.que.push(function () {
             pageId: 176030,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19650,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19650,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -629,12 +629,12 @@ pbjs.que.push(function () {
             pageId: 176030,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19639,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19639,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -666,12 +666,12 @@ pbjs.que.push(function () {
             pageId: 176030,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19651,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19651,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -703,12 +703,12 @@ pbjs.que.push(function () {
             pageId: 176030,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19652,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19652,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -787,12 +787,12 @@ pbjs.que.push(function () {
             pageId: 176030,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19640,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19640,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -855,12 +855,12 @@ pbjs.que.push(function () {
             pageId: 176030,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19646,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19646,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -923,12 +923,12 @@ pbjs.que.push(function () {
             pageId: 176030,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19649,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19649,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -960,12 +960,12 @@ pbjs.que.push(function () {
             pageId: 176031,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19643,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19643,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -1070,12 +1070,12 @@ pbjs.que.push(function () {
             pageId: 176031,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19644,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19644,
+        //   },
+        // },
         {
           bidder: 'clickforce',
           params: {
@@ -1106,12 +1106,12 @@ pbjs.que.push(function () {
             pageId: 176031,
           },
         },
-        {
-          bidder: 'bridgewell',
-          params: {
-            cid: 19645,
-          },
-        },
+        // {
+        //   bidder: 'bridgewell',
+        //   params: {
+        //     cid: 19645,
+        //   },
+        // },
       ],
     },
   ])
