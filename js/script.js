@@ -43,6 +43,7 @@ if (window.location.href.indexOf('ifoodie.tw') == -1) {
 
   // Remove floating ad
   sssheet.insertRule('#ad-full-page { display: none !important; }', 0)
+  sssheet.insertRule('#momo_outer { display: none !important; }', 0)
   sssheet.insertRule('.Zi_ad_a_H { display: none !important; }', 0)
   sssheet.insertRule('.vidverto-player-container { display: none !important; }', 0)
   sssheet.insertRule(
@@ -69,6 +70,7 @@ if (window.location.href.indexOf('ifoodie.tw') == -1) {
   sssheet.insertRule('.friends-links { display: none !important; }', 0)
   sssheet.insertRule('vmfive-ad-box { display: none !important; }', 0)
   sssheet.insertRule('.AD2M-CrazyWrap { display: none !important; }', 0)
+  sssheet.insertRule('.adsbyfalcon { display: none !important; }', 0)
   sssheet.insertRule('.pixnet-side-sticker { display: none !important; }', 0)
   sssheet.insertRule(
     '.swp_floating_horizontal_wrapper { display: none !important; }',
