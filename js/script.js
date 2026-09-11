@@ -72,6 +72,12 @@ if (window.location.href.indexOf('ifoodie.tw') == -1) {
   sssheet.insertRule('.AD2M-CrazyWrap { display: none !important; }', 0)
   sssheet.insertRule('.adsbyfalcon { display: none !important; }', 0)
   sssheet.insertRule('.pixnet-side-sticker { display: none !important; }', 0)
+  // pixnet PixnetAdSlot (GTM): full-screen cover popup + bottom anchor
+  sssheet.insertRule('.pix-popup-container { display: none !important; }', 0)
+  sssheet.insertRule('.pix-anchor-container { display: none !important; }', 0)
+  // pixnet OneAD bottom sticky, adbro floating badge
+  sssheet.insertRule('div[id^="onead-layout"] { display: none !important; }', 0)
+  sssheet.insertRule('#adbro { display: none !important; }', 0)
   sssheet.insertRule(
     '.swp_floating_horizontal_wrapper { display: none !important; }',
     0
@@ -94,6 +100,58 @@ if (window.location.href.indexOf('ifoodie.tw') == -1) {
     '.wow-gemini-ad-bottom-wrapper { display: none !important; }',
     0
   )
+
+  // Cover ads can carry an inline `!important` that beats the rules above, and
+  // some sit in an unnamed fixed wrapper, so remove them whenever the page changes.
+  if (window.top === window.self && !window.saintCoverAdRemover) {
+    window.saintCoverAdRemover = true
+    var coverAdSelector =
+      '.pix-popup-container, .pix-anchor-container, #pix-sticker-ad, #pix-sticker-ad-bottom'
+    var coverAdFrameSelector =
+      'iframe[src*="onead.com.tw"], iframe[src*="tamedia.com.tw"]'
+    var removeCoverAds = function () {
+      document.querySelectorAll(coverAdSelector).forEach(function (el) {
+        el.remove()
+      })
+      // Drop the outermost fixed wrapper; in-article (non-fixed) ads stay.
+      document.querySelectorAll(coverAdFrameSelector).forEach(function (frame) {
+        var wrapper = null
+        for (var n = frame; n && n !== document.body; n = n.parentElement) {
+          if (window.getComputedStyle(n).position === 'fixed') wrapper = n
+        }
+        if (wrapper) wrapper.remove()
+      })
+      // GliaCloud's stylesheet out-specifies any rule we could add, so hide its
+      // sticky player inline while it floats and hand it back once in place.
+      document
+        .querySelectorAll('[data-gc-instream-floater-state]')
+        .forEach(function (el) {
+          if (el.getAttribute('data-gc-instream-floater-state') === 'floating') {
+            el.style.setProperty('display', 'none', 'important')
+          } else if (el.style.getPropertyValue('display') === 'none') {
+            el.style.removeProperty('display')
+          }
+        })
+    }
+    // rAF, not timers: the clearInterval loop below would cancel them
+    var sweepQueued = false
+    var queueSweep = function () {
+      if (sweepQueued) return
+      sweepQueued = true
+      window.requestAnimationFrame(function () {
+        sweepQueued = false
+        removeCoverAds()
+      })
+    }
+    new MutationObserver(queueSweep).observe(document.documentElement, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ['src', 'data-gc-instream-floater-state'],
+    })
+    window.addEventListener('scroll', queueSweep, { passive: true })
+    removeCoverAds()
+  }
 
   setTimeout(function () {
     for (i = 0; i < 100; i++) {
